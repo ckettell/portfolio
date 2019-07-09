@@ -26,4 +26,19 @@
 - Worked on the Practicals. Finished the OO ones and started dependency injection.
 
 ### Afternoon, Oystercard
-- Paired with Genny. Made good process on the task. We were able to complete step 14 and most of 15. 
+- Paired with Genny. Made good process on the task. We were able to complete step 14 and most of 15.
+
+## Friday, 5th July
+
+### Morning, Retrospective and Feedback Workshop
+- Going to make an effort initiating giving more feedback.
+
+### Afternoon, Oystercard
+- Paired with Zi.
+- Made some good progress and was able to get a good understand of dependency.
+
+## Saturday and Sunday, 6th and 7th July
+
+### Takeaway App
+- Enjoyed working on this. Made an effort to give classes their own responsibilities and ensuring methods represented this too.
+- First time I knowingly used an API. This was to send a text with an order confirming the method had been executed. 
