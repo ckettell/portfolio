@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require '/Users/student/Projects/portfolio/Week-3/birthday-app/lib/birthday_calculator.rb'
+require './lib/birthday_calculator.rb'
 
 class Birthday < Sinatra::Base
 
@@ -17,9 +17,6 @@ class Birthday < Sinatra::Base
   end
 
   get '/isit' do
-    # @user_name = session[:user_name]
-    # @month_start = session[:month_start]
-    # @day_start = session[:day_start]
     @message = BirthdayCalulator.new(session[:day_start], session[:month_start], session[:user_name]).message
     erb :isit
   end

@@ -13,7 +13,7 @@ class BirthdayCalulator
     if calculator == 0
       "Happy Birthday, #{@name}! Have a great day"
     else
-      "Your birthday is in #{calculator} days, #{@name}"
+      "Your birthday is in #{calculator} #{day_or_days}, #{@name}"
     end
   end
 
@@ -33,4 +33,11 @@ class BirthdayCalulator
     Date::MONTHNAMES.index(@month)
   end
 
+  def day_or_days
+    if calculator == 1
+      "day"
+    else
+      "days"
+    end
+  end
 end
