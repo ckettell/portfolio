@@ -1,0 +1,17 @@
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+ruby '2.6.3'
+
+gem 'rspec'
+ # :group => [:development, :test]
+gem 'sinatra'
+gem 'capybara'
+gem 'selenium-webdriver'
+gem 'rspec-sinatra'
+gem 'timecop'
+gem 'active_support'
+
+
+gem "rack", "~> 2.0"
